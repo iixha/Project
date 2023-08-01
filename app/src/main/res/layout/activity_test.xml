@@ -4,6 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TestActivity">
+    android:background="#101A53"
+    tools:context=".TestActivity" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Let's Play"
+        android:textColor="#F4F4F4"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Be the first!"
+        android:textColor="#F4F4F4"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="369dp"
+        android:layout_height="211dp"
+        android:background="@drawable/background_bott"
+
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/stateless_rgb_color_icon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text=" your scoure 0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="771dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="374dp"
+        android:layout_height="186dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/circle_of_symbols_icons_world_tourist_attractions_vector_image_on_vectorstock"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="523dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
