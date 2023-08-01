@@ -16,7 +16,7 @@
         android:textColor="#F4F4F4"
         android:textSize="48sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteX="352dp"
         tools:layout_editor_absoluteY="624dp" />
 
     <TextView
@@ -28,13 +28,13 @@
         android:textColor="#F4F4F4"
         android:textSize="48sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="301dp"
-        tools:layout_editor_absoluteY="706dp" />
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="688dp" />
 
     <ImageView
         android:id="@+id/homeFlag"
-        android:layout_width="722dp"
-        android:layout_height="285dp"
+        android:layout_width="887dp"
+        android:layout_height="298dp"
         android:background="@drawable/background_bott"
         android:src="@drawable/stateless_rgb_color_icon"
         tools:ignore="MissingConstraints"
@@ -47,13 +47,13 @@
         android:layout_height="117dp"
         android:src="@drawable/images"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="706dp"
-        tools:layout_editor_absoluteY="959dp" />
+        tools:layout_editor_absoluteX="817dp"
+        tools:layout_editor_absoluteY="955dp" />
 
     <ImageView
         android:id="@+id/toristHome"
-        android:layout_width="743dp"
-        android:layout_height="254dp"
+        android:layout_width="899dp"
+        android:layout_height="276dp"
         android:background="@drawable/background_bott"
         android:src="@drawable/city_icons"
         tools:ignore="MissingConstraints"
@@ -66,13 +66,13 @@
         android:layout_height="120dp"
         android:src="@drawable/images"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="718dp"
+        tools:layout_editor_absoluteX="829dp"
         tools:layout_editor_absoluteY="1294dp" />
 
     <ImageView
         android:id="@+id/imageView23"
-        android:layout_width="969dp"
-        android:layout_height="425dp"
+        android:layout_width="1138dp"
+        android:layout_height="479dp"
         android:background="@drawable/background_bott"
         android:src="@drawable/white"
         android:visibility="visible"
@@ -97,7 +97,8 @@
         android:text="0"
         android:textSize="48sp"
         tools:layout_editor_absoluteX="548dp"
-        tools:layout_editor_absoluteY="132dp" />
+        tools:layout_editor_absoluteY="132dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
@@ -107,6 +108,7 @@
         android:text="Ranking"
         android:textSize="48sp"
         tools:layout_editor_absoluteX="548dp"
-        tools:layout_editor_absoluteY="198dp" />
+        tools:layout_editor_absoluteY="198dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

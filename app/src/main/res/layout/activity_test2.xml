@@ -11,11 +11,11 @@
         android:layout_width="367dp"
         android:layout_height="268dp"
         android:background="#FFFFFF"
+        android:contentDescription="TODO"
         app:srcCompat="@drawable/_ff736715682f408b3683cbc89c8e166"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="89dp"
-        android:contentDescription="TODO" />
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="81dp" />
 
     <Button
         android:id="@+id/button"
@@ -23,7 +23,7 @@
         android:layout_height="67dp"
         android:background="#FFFFFF"
         android:text="United Kingdom"
-        android:textColor="#FFFFFF"
+        android:textColor="#757575"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="47dp"
         tools:layout_editor_absoluteY="407dp" />
@@ -52,15 +52,15 @@
         android:layout_height="48dp"
         android:text="GO TO NEXT QUESTION"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="691dp" />
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="667dp" />
 
     <ImageView
         android:id="@+id/score2"
         android:layout_width="66dp"
         android:layout_height="56dp"
         app:srcCompat="@drawable/_40fe6c0a4a76c4424256c509d1c2a73"
-        tools:layout_editor_absoluteX="343dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

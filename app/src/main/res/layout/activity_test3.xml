@@ -6,44 +6,34 @@
     android:layout_height="match_parent"
     android:background="@drawable/navy_blue_wallpaper">
 
-    <ImageView
-        android:id="@+id/scoure3"
-        android:layout_width="66dp"
-        android:layout_height="56dp"
-        app:srcCompat="@drawable/_40fe6c0a4a76c4424256c509d1c2a73"
-        tools:layout_editor_absoluteX="329dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="213dp"
-        android:layout_height="39dp"
-        android:text="GO TO NEXT QUESTION"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="676dp" />
-
     <Button
         android:id="@+id/button6"
         android:layout_width="343dp"
         android:layout_height="67dp"
         android:background="#C39393"
         android:text="The Eiffel Tower"
-        android:textColor="#F1F1F1"
+        android:textColor="#311B92"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="373dp" />
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <ImageView
+        android:id="@+id/scoure3"
+        android:layout_width="66dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/_40fe6c0a4a76c4424256c509d1c2a73"
+        tools:layout_editor_absoluteX="370dp"
+        tools:layout_editor_absoluteY="22dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="343dp"
-        android:layout_height="67dp"
-        android:background="#C39393"
-        android:text="Colosseum Amphitheater"
-        android:textColor="#F1F1F1"
+        android:id="@+id/button9"
+        android:layout_width="220dp"
+        android:layout_height="49dp"
+        android:text="GO TO NEXT QUESTION"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="462dp" />
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="740dp" />
 
     <Button
         android:id="@+id/button8"
@@ -51,19 +41,30 @@
         android:layout_height="67dp"
         android:background="#C39393"
         android:text="@string/tower_of_pisa"
-        android:textColor="#F1F1F1"
+        android:textColor="#311B92"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="553dp" />
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="625dp" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="374dp"
-        android:layout_height="271dp"
+        android:layout_width="389dp"
+        android:layout_height="272dp"
         android:background="#FFFFFF"
         app:srcCompat="@drawable/touristattractions1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="80dp" />
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="343dp"
+        android:layout_height="67dp"
+        android:background="#C39393"
+        android:text="Colosseum Amphitheater"
+        android:textColor="#311B92"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="537dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
