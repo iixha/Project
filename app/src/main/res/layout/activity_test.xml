@@ -4,62 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backg"
-    tools:context=".MainActivity">
+    tools:context=".TestActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/tV2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="460dp"
-            android:layout_marginRight="30dp"
-            android:text="Enter your Name "
-            android:textAlignment="textStart"
-            android:textColor="#FFFFFF"
-            android:textIsSelectable="true"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/text_Name"
-            android:layout_width="345dp"
-            android:layout_height="60dp"
-            android:layout_gravity=""
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="20dp"
-            android:autoText="false"
-            android:background="#FBFBFB"
-            android:backgroundTintMode="src_atop"
-            android:breakStrategy="simple"
-            android:ems="10"
-            android:inputType="text"
-            android:padding="10dp"
-            android:text="Name"
-            android:textColor="#8F8C8C" />
-
-        <Button
-            android:id="@+id/start_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="40dp"
-            android:background="@drawable/custom__button1"
-
-            android:backgroundTint="#00BCD4"
-            android:drawableTintMode="src_over"
-            android:text="Start"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            app:cornerRadius="5sp"
-            app:strokeWidth="10sp" />
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

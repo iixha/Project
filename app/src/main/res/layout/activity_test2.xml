@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/navy_blue_wallpaper"
+        tools:context=".MainActivity22"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="427dp"
+            android:layout_height="240dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteY="112dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                tools:ignore="MissingConstraints"
+                android:background="@drawable/background_bott"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/_ff736715682f408b3683cbc89c8e166" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="434dp"
+            android:layout_height="322dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="413dp">
+
+            <Button
+                android:id="@+id/bu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/bu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/bu3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/but4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="426dp"
+            android:layout_height="74dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="676dp"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/bu5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
