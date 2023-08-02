@@ -1,70 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/navy_blue_wallpaper">
+<layout>
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="343dp"
-        android:layout_height="67dp"
-        android:background="#C39393"
-        android:text="The Eiffel Tower"
-        android:textColor="#311B92"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="449dp" />
 
-    <ImageView
-        android:id="@+id/scoure3"
-        android:layout_width="66dp"
-        android:layout_height="56dp"
-        app:srcCompat="@drawable/_40fe6c0a4a76c4424256c509d1c2a73"
-        tools:layout_editor_absoluteX="370dp"
-        tools:layout_editor_absoluteY="22dp"
-        tools:ignore="MissingConstraints" />
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/navy_blue_wallpaper"
+        tools:context=".MainActivity3"
+        >
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="220dp"
-        android:layout_height="49dp"
-        android:text="GO TO NEXT QUESTION"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="740dp" />
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="220dp"
+            android:layout_height="49dp"
+            android:text="GO TO NEXT QUESTION"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="740dp" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="343dp"
-        android:layout_height="67dp"
-        android:background="#C39393"
-        android:text="@string/tower_of_pisa"
-        android:textColor="#311B92"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="625dp" />
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="268dp"
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="389dp"
-        android:layout_height="272dp"
-        android:background="#FFFFFF"
-        app:srcCompat="@drawable/touristattractions1"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="113dp" />
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="73dp">
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="343dp"
-        android:layout_height="67dp"
-        android:background="#C39393"
-        android:text="Colosseum Amphitheater"
-        android:textColor="#311B92"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="537dp" />
+            <ImageView
+                android:id="@+id/imv_italy"
+                android:layout_width="386dp"
+                android:layout_height="234dp"
+                android:background="@drawable/background_bott"
+                app:srcCompat="@drawable/touristattractions1"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="410dp"
+            tools:ignore="MissingConstraints"
+
+            android:layout_height="252dp"
+
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="364dp">
+
+            <Button
+                android:id="@+id/but1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/but2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/but3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/but4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="113dp"
+            tools:ignore="MissingConstraints"
+
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="617dp">
+
+            <Button
+                android:id="@+id/but5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

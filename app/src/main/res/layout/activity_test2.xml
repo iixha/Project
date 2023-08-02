@@ -1,66 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/navy_blue_wallpaper">
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/navy_blue_wallpaper"
+        tools:context=".MainActivity22"
+        >
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="367dp"
-        android:layout_height="268dp"
-        android:background="#FFFFFF"
-        android:contentDescription="TODO"
-        app:srcCompat="@drawable/_ff736715682f408b3683cbc89c8e166"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="81dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="343dp"
-        android:layout_height="67dp"
-        android:background="#FFFFFF"
-        android:text="United Kingdom"
-        android:textColor="#757575"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="407dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="343dp"
-        android:layout_height="67dp"
-        android:text="Argentina"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="501dp"
-        tools:ignore="MissingConstraints" />
+        <LinearLayout
+            android:layout_width="427dp"
+            android:layout_height="240dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:ignore="MissingConstraints"
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="343dp"
-        android:layout_height="67dp"
-        android:text="Malaysia"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="586dp"
-        tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="112dp">
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="213dp"
-        android:layout_height="48dp"
-        android:text="GO TO NEXT QUESTION"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="667dp" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                tools:ignore="MissingConstraints"
+                android:background="@drawable/background_bott"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/_ff736715682f408b3683cbc89c8e166" />
+        </LinearLayout>
 
-    <ImageView
-        android:id="@+id/score2"
-        android:layout_width="66dp"
-        android:layout_height="56dp"
-        app:srcCompat="@drawable/_40fe6c0a4a76c4424256c509d1c2a73"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="329dp"
-        tools:layout_editor_absoluteY="16dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="434dp"
+            android:layout_height="322dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="413dp">
+
+            <Button
+                android:id="@+id/bu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/bu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/bu3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/but4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="426dp"
+            android:layout_height="74dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="676dp"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/bu5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
