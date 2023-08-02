@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data> </data>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/baackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="Quilzzie"
+                android:textSize="30sp"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/white"
+                app:srcCompat="@drawable/mak" />
+
+            <Button
+                android:id="@+id/Saudi_button"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:text="Saudi Arabia" />
+
+            <Button
+                android:id="@+id/France_button"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="40dp"
+                android:backgroundTint="@color/white"
+                android:text="France"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/America_button"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="40dp"
+                android:backgroundTint="@color/white"
+                android:text="America"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#00BCD4"
+                android:text="GO TO NEXT QUESTION"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
