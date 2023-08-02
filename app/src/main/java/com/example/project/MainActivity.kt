@@ -1,21 +1,19 @@
 package com.example.project
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.project.databinding.ActivityTest11Binding.inflate
-import com.example.project.databinding.ActivityTest11Binding
-
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
-
-      private  lateinit var binding: ActivityTest11Binding
-
-                override fun onCreate(savedInstanceState: Bundle?) {
-                //  binding =  ActivityTest11Binding.inflate(layoutInflater)
-                super.onCreate(savedInstanceState)
-
-        }
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        var tex_tv = findViewById<TextView>(R.id.tV2)
+        var tex_nama = findViewById<EditText>(R.id.text_Name)
+        var start_botton = findViewById<Button>(R.id.start_button)
 
 
 
     }
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_quizzie">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/baackground">
+
+            <LinearLayout
+                android:id="@+id/ver"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:text="Quilzzie"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/mak" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ver2"
+                android:layout_width="355dp"
+                android:layout_height="323dp"
+                android:layout_below="@+id/ver"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Saudi_button"
+                    android:layout_width="350dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Saudi Arabia"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/America_button"
+                    android:layout_width="350dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="40dp"
+                    android:backgroundTint="@color/white"
+                    android:text="America"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/France_button"
+                    android:layout_width="350dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="40dp"
+                    android:backgroundTint="@color/white"
+                    android:text="France"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="350dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="60dp"
+                    android:backgroundTint="#00BCD4"
+                    android:text="GO TO NEXT QUESTION"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </layout>
