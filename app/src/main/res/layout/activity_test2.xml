@@ -21,7 +21,7 @@
             tools:layout_editor_absoluteY="112dp">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/ima_flag1"
                 android:layout_width="match_parent"
                 tools:ignore="MissingConstraints"
                 android:background="@drawable/background_bott"

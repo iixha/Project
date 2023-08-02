@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/navy_blue_wallpaper"
+
+
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="1826dp"
+            android:layout_height="520dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="-25dp">
+
+            <ImageView
+                android:id="@+id/imv_win"
+                android:layout_width="1673dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_bott"
+                app:srcCompat="@drawable/_40fe6c0a4a76c4424256c509d1c2a73"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1177dp"
+            android:layout_height="653dp"
+            tools:ignore="MissingConstraints"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="366dp"
+            tools:layout_editor_absoluteY="1431dp">
+
+            <ImageView
+                android:id="@+id/imv_torusit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_bott"
+                app:srcCompat="@drawable/tourism_flat_icons_set"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1194dp"
+            android:layout_height="1077dp"
+            android:orientation="vertical"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="349dp"
+            tools:layout_editor_absoluteY="2215dp">
+
+            <ImageView
+                android:id="@+id/imv_flag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_bott"
+                app:srcCompat="@drawable/stateless_rgb_color_icon"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tex_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            tools:ignore="MissingConstraints"
+            android:text="Let's Play"
+            android:textColor="#FFFDFD"
+            android:textSize="96sp"
+            tools:layout_editor_absoluteX="562dp"
+            tools:layout_editor_absoluteY="982dp" />
+
+        <TextView
+            android:id="@+id/tex_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:fontFamily="@font/archivo_black"
+            android:text="Be The First!"
+            android:textColor="#FFFDFD"
+            android:textSize="96sp"
+            tools:layout_editor_absoluteX="554dp"
+            tools:layout_editor_absoluteY="1153dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
