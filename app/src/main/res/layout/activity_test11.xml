@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/navy_blue_wallpaper"
-    tools:context=".MainActivity"
+    android:background="@drawable/backg"
+    tools:context=".MainActivity11"
     >
 
     <LinearLayout
@@ -24,22 +24,24 @@
 
             android:background="@drawable/background_bott"
             app:srcCompat="@drawable/_40fe6c0a4a76c4424256c509d1c2a73"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            android:contentDescription="TODO" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="407dp"
         android:layout_height="199dp"
-        tools:ignore="MissingConstraints"
-
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="319dp">
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="317dp">
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="378dp"
             android:layout_height="146dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/background_bott"
             app:srcCompat="@drawable/france_free_vector_icons_designed_by_roundicons"
             tools:ignore="MissingConstraints" />
@@ -59,6 +61,7 @@
             android:layout_width="377dp"
             android:layout_height="match_parent"
             android:background="@drawable/background_bott"
+            android:paddingTop="10dp"
             app:srcCompat="@drawable/city_icons"
             tools:ignore="MissingConstraints" />
     </LinearLayout>
